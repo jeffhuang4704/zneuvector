@@ -3632,3 +3632,7 @@ func wrapApiKeyAsUser(login *loginSession) (*share.CLUSUser, error) {
 
 	return user, nil
 }
+
+func dummyFunction1(key string){
+	log.WithFields(log.Fields{"key": key}).Debug("dummyFunction1")
+}
