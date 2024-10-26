@@ -649,3 +649,7 @@ func importCompProfile(scope string, loginDomainRoles access.DomainRole, importT
 
 	return nil
 }
+
+func dummyFunction2(key string){
+	log.WithFields(log.Fields{"key": key}).Debug("dummyFunction2")
+}
