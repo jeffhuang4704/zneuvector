@@ -289,7 +289,7 @@ func main() {
 		}
 	}
 	if debug && *debug_level != "" {
-		var validLevelSet utils.Set = utils.NewSet("conn", "mutex", "scan", "cluster", "k8s_monitor", "test1")
+		var validLevelSet utils.Set = utils.NewSet("conn", "mutex", "scan", "cluster", "k8s_monitor", "test1", "test208")
 		splitLevels := strings.Split(*debug_level, " ")
 		var validLevels []string
 		for _, level := range splitLevels {
