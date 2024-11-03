@@ -7,7 +7,7 @@ import (
 	"github.com/doug-martin/goqu/v9/exp"
 	_ "github.com/mattn/go-sqlite3"
 )
-
+//fix bench issue by jeff
 type DbBench struct {
 	Db_ID            int
 	Type             string
