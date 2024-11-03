@@ -29,6 +29,7 @@ const (
 
 type DbVulAssetV2 struct {
 	Name string
+	Email string
 }
 
 type DbVulAsset struct {
