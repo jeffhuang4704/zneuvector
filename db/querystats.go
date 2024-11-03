@@ -9,7 +9,7 @@ import (
 	"github.com/doug-martin/goqu/v9"
 	_ "github.com/mattn/go-sqlite3"
 )
-
+//test, by Jeff
 type QueryStat struct {
 	Db_ID        int
 	Token        string
