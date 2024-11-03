@@ -1257,3 +1257,5 @@ func GetImageAssetSession(queryFilter *AssetQueryFilter) ([]*api.RESTImageAssetV
 
 	return assets, quickFilterMatched, nil
 }
+
+// fix risk page issue by jeff
