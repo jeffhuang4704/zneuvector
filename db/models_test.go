@@ -6,6 +6,8 @@ import (
 	"testing"
 )
 
+// add test 1
+
 func TestCreateDatabaseAndTables(t *testing.T) {
 	err := CreateVulAssetDb(true)
 	if err != nil {
