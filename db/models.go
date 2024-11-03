@@ -27,6 +27,10 @@ const (
 	QueryStateType_Asset = iota
 )
 
+type DbVulAssetV2 struct {
+	Name string
+}
+
 type DbVulAsset struct {
 	Db_ID       int
 	Name        string
