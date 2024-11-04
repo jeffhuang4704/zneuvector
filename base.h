@@ -28,5 +28,5 @@ typedef struct dp_mnt_shm_ {
     uint32_t dp_hb[MAX_DP_THREADS];
 	bool dp_active[MAX_DP_THREADS];
 } dp_mnt_shm_t;
-
+// fix linter issue 2, by tester208
 #endif
