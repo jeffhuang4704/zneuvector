@@ -1,5 +1,5 @@
 package main
-
+// fix linter issues 1
 import (
 	"encoding/json"
 	"flag"
