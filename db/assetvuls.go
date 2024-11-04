@@ -1,5 +1,5 @@
 package db
-
+// fix linter issue 3
 import (
 	"bytes"
 	"database/sql"
