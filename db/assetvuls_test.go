@@ -1,5 +1,6 @@
 package db
 //modifed by jeff
+// fix linter issue 3 for tests
 import (
 	"encoding/json"
 	"testing"
