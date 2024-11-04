@@ -5,6 +5,7 @@
 #include <netinet/tcp.h>
 
 // Definitions are used by both agent and controller, value cannot be changed.
+// more comments by Jeff
 
 #define DP_MSG_SIZE 8192
 
