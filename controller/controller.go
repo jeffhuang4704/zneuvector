@@ -208,7 +208,7 @@ func isGroupMember(name, id string) bool {
 func getConfigKvData(key string) ([]byte, bool) {
 	return cacher.GetConfigKvData(key)
 }
-
+// another feature here, by tester208
 func main() {
 	var joinAddr, advAddr, bindAddr string
 	var err error
