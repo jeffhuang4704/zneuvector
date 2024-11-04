@@ -23,7 +23,7 @@ typedef unsigned char bool;
 #define DP_MNT_SHM_NAME "/dp_mnt.shm"
 
 #define MAX_DP_THREADS 4
-
+// modifed by jeff, code review 2
 typedef struct dp_mnt_shm_ {
     uint32_t dp_hb[MAX_DP_THREADS];
 	bool dp_active[MAX_DP_THREADS];
