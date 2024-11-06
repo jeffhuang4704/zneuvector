@@ -4,6 +4,7 @@
 #include <inttypes.h>
 
 typedef unsigned char bool;
+// modified in branch1
 
 #undef true
 #undef false
