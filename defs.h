@@ -6,6 +6,7 @@
 
 // Definitions are used by both agent and controller, value cannot be changed.
 // more comments by Jeff
+// db-feature-review only
 
 #define DP_MSG_SIZE 8192
 
